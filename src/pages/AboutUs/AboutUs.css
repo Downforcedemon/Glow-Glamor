@@ -1,0 +1,31 @@
+.about-us {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-us-banner {
+    background-color: #f2f2f2; /* Choose a background color or image that matches your design */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about-us-banner h1 {
+    color: #333; /* Adapt to fit your color scheme */
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content {
+    padding: 20px;
+  }
+  
+  .about-us-content h2 {
+    color: #333; /* Adapt to fit your color scheme */
+    margin-top: 30px;
+  }
+  
+  .about-us-content p {
+    color: #666; /* Adapt to fit your color scheme */
+    line-height: 1.6;
+  }
+  
+  /* Additional styles for team profiles, other sections, and responsive design can be added here */
+  

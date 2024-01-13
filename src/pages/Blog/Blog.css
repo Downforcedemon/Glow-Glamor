@@ -1,0 +1,45 @@
+.blog {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .blog-header {
+    background-color: #f2f2f2; /* Adjust the color to match your site theme */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .blog-header h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blog-header p {
+    color: #666;
+  }
+  
+  .blog-posts {
+    padding: 20px;
+  }
+  
+  .post {
+    margin-bottom: 30px;
+  }
+  
+  .post h2 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .post-date {
+    color: #999;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .post-summary {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* You can add more styles, such as for hover effects, images, and responsive design */
+  

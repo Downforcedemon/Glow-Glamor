@@ -1,0 +1,46 @@
+1. Directory structure 
+# components --> reusable --> headers, footers, buttons
+# pages --> main pages
+# assets --> static files like images, stylesheets
+
+
+2. PLAN pages
+# Home --> 
+# About --> 
+# Services --> 
+# Contact --> 
+
+
+3. LAYOUT components --> header/footer used on multiple pages
+
+
+4. REUSABLE components 
+# NavBar --> 
+# HomePage --. 
+
+5. STYLING 
+# CSS
+# Responsive design --> Bootstrap,material ui
+
+5. INTERACTIVITY with backend
+# manage state ---> user input, data fetch, useState or useContext or Redux
+# API Calls --> fetch or axios
+
+
+
+
+
+
+
+#### BASIC SETUP #########33
+# App.js
+# Basic Page ---> folders in Home,about,blog,contact,etc
+
+# error handling
+# 1. cannot find module 'react-router-dom' --> install it in root
+# 2. Error: Can't resolve './pages/AboutPage' in '/home/kali/Downloads/simzmakerover/src' ---------> correct the path in App.js for import and route. 
+# 3. Error: export 'Switch' (imported as 'Switch') was not found in 'react-router-dom' ----> replace switch with router or routes in app.js
+# 4. Can't resolve '/path-to-your-background-image.jpg' in '/home/kali/Downloads/simzmakerover/src/pages/Home' --------> add image in /assets/images and set path in Home.css 
+# 5. Routes is not defined ---------> 
+
+

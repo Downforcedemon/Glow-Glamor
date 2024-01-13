@@ -1,0 +1,74 @@
+.home {
+  font-family: 'Arial', sans-serif;
+}
+
+.home-header {
+  text-align: center;
+  padding: 50px;
+  min-height: 600px; /* Adjust as needed */
+  color: green;
+  position: relative;
+}
+
+/* Main image */
+.home-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33.3333%;
+  height: 100%;
+  background: url('/src/assets/images/navneet1.jpeg') no-repeat center;
+  background-size: auto 100%; /* Adjust this to contain the image within the header height */
+  z-index: -1;
+}
+
+/* Second image */
+.home-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 33.3333%;
+  height: 100%;
+  background: url('/src/assets/images/navneet3.jpeg') no-repeat center;
+  background-size: auto 100%; /* Adjust this to contain the image within the header height */
+  z-index: -1;
+}
+
+/* Third image */
+.home-header {
+  background: url('/src/assets/images/navneet2.jpeg') no-repeat center center;
+  background-size: auto 100%; /* Adjust this to contain the image within the header height */
+}
+
+.home-header h1 {
+  font-size: 2em;
+  position: relative;
+  z-index: 2;
+}
+
+.home-header p {
+  margin: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+body{
+  background-color: darksalmon;
+  height: 100%;
+  width: 100%;
+}
+
+html, body, #root, #root > header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box; /* This ensures padding and borders are included in the element's width */
+}
+
+#root > header {
+  background-color: darksalmon; 
+ 
+}
+
+
